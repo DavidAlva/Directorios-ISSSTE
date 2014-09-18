@@ -1,0 +1,15 @@
+REFERENTES TEORICOS:
+
+(1)
+JAVA 2
+Manual de Usuario y tutorial
+4ª edición actualizada a la versión J2SE 5
+Agustín Froufe Quintas
+Editor Alfaomega
+
+
+(2)
+Sun Certified Programmer  for Java 6 Study Guide
+SCJP
+Kathy Sierra Bert Bates
+Editorial Mc Graw Hill 
