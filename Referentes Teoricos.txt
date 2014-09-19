@@ -13,3 +13,9 @@ Sun Certified Programmer  for Java 6 Study Guide
 SCJP
 Kathy Sierra Bert Bates
 Editorial Mc Graw Hill 
+
+
+
+2) Froufe Quintas, A.(2006).JAVA 2 Manual de Usuario y Tutorial(4ª edición actualizada a la versión J2SE 5).México:Editor Alfaomega Ra-Ma.
+
+3) Sierra K. & Bates B.(2008).Sun Certified Programmer for JAVA 6 Study Guide. United States of America: Editorial Mc Graw Hill.
