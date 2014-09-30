@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS `centrosTrabajo` (
-idCentroTrabajo mediumint NOT NULL AUTO_INCREMENT,
+idCentroTrabajo int NOT NULL AUTO_INCREMENT,
 `UR` nvarchar(255),
 `CT` nvarchar(255),
 `AUX` nvarchar(255),
