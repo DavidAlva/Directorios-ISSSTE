@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS `centrosTrabajo` (
+idCentroTrab mediumint NOT NULL AUTO_INCREMENT,
+`UR` nvarchar(255),
+`CT` nvarchar(255),
+`AUX` nvarchar(255),
+`TIPOLOGIA` nvarchar(255),
+`NOMBRE` nvarchar(255),
+`MUNICIPIO` nvarchar(255),
+`RESPONSABLE` nvarchar(255),
+`DOMICILIO` nvarchar(255),
+`TELEFONO` nvarchar(255),
+`RED INSTITUCIONAL` nvarchar(255),
+`NUMERO DE CELULAR` nvarchar(255),
+`CORREO ELECTRONICO` nvarchar(255),
+PRIMARY KEY (`idCentroTrab`)
+
+) 
