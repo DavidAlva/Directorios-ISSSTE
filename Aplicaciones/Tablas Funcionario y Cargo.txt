@@ -1,0 +1,34 @@
+CREATE TABLE IF NOT EXISTS `cargo` (
+  `idCargo` int(11) NOT NULL AUTO_INCREMENT,
+  `cargo` varchar(40) NOT NULL,
+  PRIMARY KEY (`idCargo`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Volcado de datos para la tabla `cargo`
+--
+
+INSERT INTO `cargo` (`idCargo`, `cargo`) VALUES
+(1, 'DELEGADO'),
+(2, 'SUBDELEGADO'),
+(3, 'JEFE DE DEPARTAMENTO'),
+(4, 'EMPLEADO'),
+(5, 'SECRETARIA');
+
+
+
+CREATE TABLE IF NOT EXISTS `funcionario` (
+  `idFuncionario` varchar(15) NOT NULL,
+  `nombre` varchar(60) NOT NULL,
+  `idCargo` int(11) NOT NULL,
+  `idCentroTrabajo` int(11) NOT NULL,
+  `correo` varchar(40) DEFAULT NULL,
+  `telefono` varchar(20) DEFAULT NULL,
+  `idTipoUsuario` int(11) NOT NULL,
+  `usuario` varchar(30) NOT NULL,
+  `contraseña` varchar(30) NOT NULL,
+  PRIMARY KEY (`idFuncionario`),
+  KEY `idCargo` (`idCargo`),
+  KEY `idCentroTrabajo` (`idCentroTrabajo`),
+  KEY `idTipoUsuario` (`idTipoUsuario`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
